@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="APITest">
+    <classes>
+      <class name="apitest.FirstPostTest"/>
+      <class name="apitest.FirstGetTest"/>
+      <class name="apitest.FirstPuTest"/>
+    </classes>
+  </test> <!-- APITest -->
+</suite> <!-- Suite -->
